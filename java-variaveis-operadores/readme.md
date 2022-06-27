@@ -82,3 +82,16 @@ pós-fixado: exp++ ou exp--
 prefixado: ++exp ou --exp
 aritmético: +, -, *, / e %
 atribuição: =, +=, -=, *=, /= e %=
+
+#Conversões (casting):
+Tipos:
+
+Upcast(implícito)
+Downcast(explícito)
+
+ex:
+long l; int = 10; l=i; -> implicito
+int i; long l = 100; i = (int) l; explicito
+
+Truncando:
+int = i; float f = 10.5f; i=(int) f;
